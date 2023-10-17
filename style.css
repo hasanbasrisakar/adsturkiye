@@ -1,0 +1,614 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.frame {
+    margin: auto;
+    max-width: 1920px;
+}
+
+.navbar {
+    background-color: #fff;
+    top: 0;
+    z-index: 9999;
+    position: sticky;
+    padding: 30px 40px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.24);
+}
+
+.navbar .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .nav .left img {
+    width: 70%;
+}
+
+.navbar .nav .right .menu a {
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    margin-left: 20px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.navbar .researchbar {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.navbar .researchbar .left {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .researchbar .left .research {
+    display: flex;
+    margin-left: 50px;
+
+}
+
+.navbar .researchbar .left .research .research-btn {
+    background-color: #EFF0F3;
+    padding: 15px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.navbar .researchbar .left .research .research-btn input[type="text"] {
+    padding-left: 10px;
+    border: none;
+    outline: none;
+    width: 300px;
+    background-color: #EFF0F3;
+    color: #343434;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.navbar .researchbar .left .research input[type="button"]:hover {
+    cursor: pointer;
+}
+
+.navbar .researchbar .left .research input[type="button"] {
+    border-radius: 5px;
+    background: #171717;
+    border: none;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 10px 35px;
+    outline: none;
+}
+
+.g-giris a {
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    border: 1px solid #C9C9C9;
+    color: #606060;
+    text-align: center;
+    font-family: Gothic A1;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.96px;
+    padding: 5px 10px;
+}
+
+.g-giris a p {
+    text-align: center;
+    padding: 0 20px;
+}
+
+.index-img img {
+    width: 100%;
+}
+
+.k-baslik {
+    display: flex;
+    align-items: center;
+    /* 24 px - Sub heading 1 */
+    font-family: Plus Jakarta Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.k-baslik svg {
+    margin-left: 10px;
+    color: var(--Black, #2B2C34);
+}
+
+.kategoriler .flex .right {
+    display: flex;
+    align-items: center;
+}
+
+.kategoriler .flex .right a {
+    color: #2B2C34;
+    text-align: right;
+
+    /* 20 px - Sub Heading 2 */
+    font-family: Plus Jakarta Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.kategoriler .flex .right svg {
+    margin-left: 10px;
+
+}
+
+.kategoriler {
+    background: #EFF0F3;
+    padding: 80px;
+}
+
+.kategoriler .flex a .card {
+    margin-top: 60px;
+    color: #2B2C34;
+    font-family: Plus Jakarta Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    padding: 100px 100px 100px 40px;
+    border-radius: 8px;
+    background: #FFFFFE;
+    box-shadow: 4px 6px 13px 0px rgba(215, 215, 215, 0.25);
+    transition: all .4s;
+}
+
+.kategoriler .flex a .card:hover {
+    background: #B80000;
+    color: #fff;
+    transition: all .4s;
+}
+
+.kategoriler .flex a .card b {
+    display: block;
+    margin-top: 40px;
+}
+
+.i-yazilar .flex .left .flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+
+.i-yazilar .flex .left .flex a {
+    width: 35%;
+    margin-right: 150px;
+    margin-bottom: 40px;
+}
+
+.i-yazilar .flex .left .flex .yazi {
+    padding: 40px 30px;
+    width: 100%;
+    font-family: Plus Jakarta Sans;
+    border-radius: 10px;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.15);
+}
+
+.i-yazilar .flex .left .flex .yazi i {
+    display: block;
+    color: #000;
+    font-family: Plus Jakarta Sans;
+    font-size: 14px;
+    font-style: normal;
+    margin-bottom: 5px;
+    font-weight: 400;
+    opacity: 0.4;
+    line-height: 20px;
+    /* 142.857% */
+}
+
+.i-yazilar .flex .left .flex .yazi b {
+    color: #000;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.i-yazilar .flex .left .flex .yazi p {
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* 142.857% */
+    opacity: 0.6;
+}
+
+.i-yazilar .flex .left .flex .yazi .flex {
+    align-items: center;
+    margin-top: 40px;
+    justify-content: space-between;
+}
+
+.i-yazilar .flex .left .flex .yazi .flex .right {
+    position: relative;
+}
+
+.i-yazilar .flex .left .flex .yazi .flex .right img {
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    z-index: 0;
+}
+
+.i-yazilar .flex .left .flex .yazi .flex .right svg {
+    position: absolute;
+    right: -12px;
+    top: -5px;
+    z-index: 3;
+}
+
+.i-yazilar .flex .left .flex .yazi .flex .left .hashtag {
+    color: #000;
+    display: inline;
+    /* H5 */
+    opacity: 1;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px;
+    /* 150% */
+    background: var(--colors-light-danger, #FFE5D3);
+    padding: 5px 10px;
+    border-radius: 6px;
+}
+
+.i-yazilar {
+    padding: 80px;
+    margin: 20px 0;
+}
+
+.sss {
+    padding: 80px;
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+    border-radius: 9px;
+    background: #FFF;
+    box-shadow: 0px 10px 25px -6px rgba(0, 0, 0, 0.10);
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    margin-top: 20px;
+    color: #000;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 151.023%;
+    /* 27.184px */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.accordion p {
+    margin: 0;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active,
+.accordion:hover {}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+}
+
+.reklam {
+    padding: 80px;
+}
+
+.reklam img {
+    width: 100%;
+}
+
+.i-katil {
+    position: relative;
+    text-align: center;
+}
+
+.i-katil img {
+    position: absolute;
+    right: 0;
+    width: 500px;
+    top: 70px;
+    z-index: 1;
+}
+
+.i-katil b {
+    color: var(--Black, #232536);
+    text-align: center;
+
+    /* Heading H2 */
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+
+}
+
+.i-katil p {
+    color: var(--Medium-grey, #6D6E76);
+    text-align: center;
+
+    /* Body 1 */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    /* 175% */
+    margin-bottom: 40px;
+}
+
+.i-katil a {
+    color: #FFF;
+    font-family: Plus Jakarta Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding: 16px 48px;
+    border-radius: 4px;
+    z-index: 2;
+    background: #B80000;
+}
+
+.footer {
+    padding: 80px;
+    margin-top: 200px;
+    background: #070707;
+}
+
+.footer .flex .menu1 b {
+    padding-right: 40px;
+    color: #FFF;
+    font-family: Plus Jakarta Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #FFF;
+    line-height: 50px;
+    /* 133.333% */
+}
+
+.footer .flex .menu1 a {
+    margin-top: 10px;
+    display: block;
+    color: #B9B9B9;
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.flogo {
+    margin: auto;
+    margin-top: 150px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.flogo img {
+    margin: auto;
+}
+
+.copyright {
+    color: #A9A9A9;
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-top: 20px;
+    width: 100%;
+    border-top: 1px solid rgba(255, 255, 255, 0.28);
+}
+
+.yazi-guven {
+    padding: 80px;
+    background: #EFF0F3;
+    text-align: center;
+}
+
+.yazi-guven .guven {
+    margin: auto;
+    width: 280px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 54px;
+    background: #B80000;
+    display: flex;
+    align-items: center;
+}
+
+.yazi-guven .guven p {
+    margin: 0;
+    margin-left: 25px;
+}
+
+.yazi-guven .baslik {
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 530px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.yazi-guven .y-aciklama {
+    margin: auto;
+    color: #201F1F;
+    text-align: justify;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    width: 600px;
+}
+
+.yazi .y-yazi {
+    color: #201F1F;
+    text-align: justify;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.yazi .y-kaynakca {
+    color: #201F1F;
+    text-align: justify;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.yazi img {
+    text-align: center;
+}
+
+.yazi {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    padding: 80px 0;
+}
+
+.y-profil {
+    padding: 30px;
+    border: 2px dashed #555;
+    border-radius: 9px;
+    width: 70%;
+    margin: auto;
+}
+
+
+.y-profil .flex .left{
+    width: 100px;
+    text-align: center;
+}
+
+.y-profil .flex .left img {
+    width: 100px;
+    margin-bottom: 10px;
+    display: block;
+    border-radius: 100px;
+}
+
+.y-profil .flex .left b {
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.y-profil .flex .left i {
+    color: #999;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+}
+
+.y-profil {
+    margin: 80px auto;
+}
+
+.y-profil .flex {
+    justify-content: space-between;
+}
+
+.y-profil .flex .right {
+    width: calc(100% - 150px);
+}
+
+.y-profil .flex .right p{
+    color: #7C7C7C;
+font-family: Inter;
+font-size: 17px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-bottom: 40px;
+}
+
+.y-profil .flex .right a{
+    color: #FF5E5B;
+font-family: Inter;
+font-size: 17px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
